@@ -1,5 +1,5 @@
-const { resolveAbsPath } = require("./system/path");
-const { existsFile, readFile } = require("./system/fs");
+const { resolveAbsPath } = require("../utils/system/path");
+const { existsFile, readFile } = require("../utils/system/fs");
 
 function loadConfig() {
   const configPath = resolveAbsPath("config/tree.json");
